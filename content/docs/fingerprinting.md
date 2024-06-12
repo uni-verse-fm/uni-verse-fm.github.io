@@ -1,3 +1,3 @@
 # Fingerprinting
 
-Here is how fingerprinting wotks
+This section is still under construction. Please wait for it to be added.

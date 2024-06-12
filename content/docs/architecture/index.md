@@ -1,6 +1,14 @@
 # Architecture
 
-![](doc/assets/archi.png)
+![](archi.png)
+
+Uni-verse contains lots of different features which implies it has a wide variety of requirements.
+
+To add even more complexity, it is made in an effort to allow scalability.
+
+This architecture include user authentication, workers linked to a message broker error reporting with advance logs, fuzzy search, and more.
+
+This page lists the different components and how they interact, and include a couple sequence diagrams for more clarity
 
 ## Api
 
