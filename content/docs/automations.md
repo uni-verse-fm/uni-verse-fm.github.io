@@ -70,14 +70,37 @@ This docker image can then be pulled by production anytime for it to be updated.
 - Builds an OCI compliant image from [Dockerfile](https://github.com/uni-verse-fm/uni-verse-api/blob/main/Dockerfile) via Docker.
 - Tags the image with the name uni-verse-api:latest and uni-verse-api:x.x.x
 
-## Android app 
+## Android app
+
+The android app follows the frontend and the API in its automation structure:
 
 ### [build](https://github.com/uni-verse-fm/uni-verse-app/blob/main/.github/workflows/build.yml)
+
+Builds the APK of the app, detecting any issue preventing build before it can be merged
+
+- Builds the app into an APK
+
 ### [ci](https://github.com/uni-verse-fm/uni-verse-app/blob/main/.github/workflows/ci.yml)
+
+Runs on pull requests and prevent any push if it does not pass.
+
+Its role is to ensure a clean codebase and avoid regressions as much as possible.
+
+- Check best practices via eslint
+- Check formatting via prettier
+
 ### [release](https://github.com/uni-verse-fm/uni-verse-app/blob/main/.github/workflows/release.yml)
+
+Runs on Github releases to build the app
+
+- Builds the app's APK
+- Exports the APK in the release artifacts
 
 ## Wiki
 
-### [hugo](https://github.com/uni-verse-fm/uni-verse-fm.github.io/blob/main/.github/workflows/hugo.yaml) 
+### [hugo](https://github.com/uni-verse-fm/uni-verse-fm.github.io/blob/main/.github/workflows/hugo.yaml)
 
+Builds the wiki and pushes it to production.
 
+- Uses hugo to build a static website from these files
+- Pushes the built website to GH pages to update production
