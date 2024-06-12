@@ -1,0 +1,20 @@
+theme = 'hugo-book'
+baseURL = 'https://uni-verse.github.io/'
+languageCode = 'en-us'
+title = 'Uni-verse'
+
+
+[params]
+  subtitle = 'Freedom for the artists'
+  
+  BookTheme = 'dark'
+  BookLogo = 'uni-verse-logo.png'
+  BookRepo = 'https://github.com/uni-verse-fm/.github'
+  BookComments = false
+  BookMenuBundle = '/menu'
+
+  [params.contact]
+    email = 'vagahbond@pm.me'
+
+
+

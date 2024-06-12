@@ -1,0 +1,7 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $width := .Get "width" }}
+
+<div style="text-align: center; width: 100%">
+  <img src="{{ $src }}" alt="{{ $alt }}" decoding="async" style="max-width: {{ $width }};" />
+</div>
