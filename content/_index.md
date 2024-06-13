@@ -19,8 +19,8 @@ bookToc: false
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/uni-verse-fm/uni-verse-app/build.yml?style=for-the-badge&label=App%3ABuild&logo=react)
 
 ![GitHub Release](https://img.shields.io/github/v/release/uni-verse-fm/uni-verse-worker?sort=semver&display_name=release&style=for-the-badge&label=WORKER%3ARELEASE&cacheSeconds=3600)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/uni-verse-fm/uni-verse-app/ci.yml?style=for-the-badge&label=WORKER%3AChecks&logo=eslint)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/uni-verse-fm/uni-verse-app/build.yml?style=for-the-badge&label=WORKER%3ABuild&logo=nodedotjs)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/uni-verse-fm/uni-verse-worker/ci.yml?style=for-the-badge&label=WORKER%3AChecks&logo=eslint)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/uni-verse-fm/uni-verse-worker/build.yml?style=for-the-badge&label=WORKER%3ABuild&logo=nodedotjs)
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/uni-verse-fm/uni-verse-fm.github.io/hugo.yaml?style=for-the-badge&label=Wiki%3Abuild&logo=hugo)
 
