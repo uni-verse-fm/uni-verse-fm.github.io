@@ -8,6 +8,7 @@ headless = true
 - [Api]({{< relref "/docs/api" >}})
 - [Fingerprinting]({{< relref "/docs/fingerprinting" >}})
 - [Frontend]({{< relref "/docs/frontend" >}})
+- [Containerization]({{< relref "/docs/containerization" >}})
 - [Production]({{< relref "/docs/production" >}})
   - [Nix]({{< relref "/docs/nix" >}})
   - [Kubernetes]({{< relref "/docs/kubernetes" >}})
