@@ -2,7 +2,7 @@
 
 For real production. Docker swarm might not be enough. If something load balanced and scalable is needed, kubernetes is a well-known solution.
 
-This is why we made kubernetes deployments for this application, that create every pods needed to run Uni-Verse flawlessly, pulling it from our CI/CD generated docker registry images.
+This is why we made [kubernetes deployments](https://github.com/uni-verse-fm/uni-verse-production/tree/main/kubernetes) for this application, that create every pods needed to run Uni-Verse flawlessly, pulling it from our CI/CD generated docker registry images.
 
 Here are the different kubernetes config files available for the production:
 
